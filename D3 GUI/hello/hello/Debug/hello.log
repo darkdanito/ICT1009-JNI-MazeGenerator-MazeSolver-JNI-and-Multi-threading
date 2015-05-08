@@ -1,0 +1,34 @@
+﻿Build started 31-Mar-15 3:33:03 PM.
+     1>Project "C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\hello\hello.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include" /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include\win32" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D HELLO_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Algorithm.cpp HuntKill.cpp IOFile.cpp JavaAssignmentImpl.cpp Maze.cpp RecursiveBack.cpp RecursiveBonus.cpp
+         RecursiveBonus.cpp
+         RecursiveBack.cpp
+         Maze.cpp
+         JavaAssignmentImpl.cpp
+     1>c:\users\darkdanito\desktop\mulithread_d3 gui\d3 gui\hello\hello\javaassignmentimpl.cpp(103): warning C4273: 'CreateDialogIndirectParamA' : inconsistent dll linkage
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(4802) : see previous definition of 'CreateDialogIndirectParamA'
+     1>c:\users\darkdanito\desktop\mulithread_d3 gui\d3 gui\hello\hello\javaassignmentimpl.cpp(112): warning C4273: 'DialogBoxIndirectParamA' : inconsistent dll linkage
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(4870) : see previous definition of 'DialogBoxIndirectParamA'
+     1>c:\users\darkdanito\desktop\mulithread_d3 gui\d3 gui\hello\hello\javaassignmentimpl.cpp(201): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>c:\users\darkdanito\desktop\mulithread_d3 gui\d3 gui\hello\hello\javaassignmentimpl.cpp(364): warning C4161: #pragma pack(pop...) : more pops than pushes
+         IOFile.cpp
+         HuntKill.cpp
+         Algorithm.cpp
+         Generating Code...
+     1>c:\users\darkdanito\desktop\mulithread_d3 gui\d3 gui\hello\hello\iofile.cpp(47): warning C4715: 'IOFile::FileOpen' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Java\jdk1.8.0_31\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.lib" /MACHINE:X86 /DLL Debug\Algorithm.obj
+         Debug\HuntKill.obj
+         Debug\IOFile.obj
+         Debug\JavaAssignmentImpl.obj
+         Debug\Maze.obj
+         Debug\RecursiveBack.obj
+         Debug\RecursiveBonus.obj
+            Creating library C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.lib and object C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.exp
+         hello.vcxproj -> C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\Debug\hello.dll
+     1>Done Building Project "C:\Users\darkdanito\Desktop\Mulithread_D3 GUI\D3 GUI\hello\hello\hello.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.14
